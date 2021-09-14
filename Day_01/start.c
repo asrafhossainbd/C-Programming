@@ -31,7 +31,7 @@ int main()
     */
 
     //e.g.:
-    
+    /*
     int x, y;
 
     x = 1;
@@ -39,7 +39,15 @@ int main()
     x = 2;
 
     printf("%d", y); //Ans: 1
-    
+    */
+
+    //e.g.:
+
+    int a = 50, b = 60, sum;
+
+    sum = a + b;
+
+    printf("%d + %d = %d", a, b, sum);
 
     return 0;
 }
