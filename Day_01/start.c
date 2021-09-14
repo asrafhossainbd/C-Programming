@@ -65,7 +65,7 @@ int main()
 
     //Experiment:
     //How to knows Type Cast Value is not Change
-
+    /*
     int n;
     double x; //double" data type, it career Real Number value
 
@@ -74,6 +74,32 @@ int main()
 
     printf("Value of n is %d\n", n); //Ans.: Value of n is 10 Note: type cust hare, x was double data type than x convart in int data type 
     printf("Value of x is %lf\n", x); //Ans.: Value of x is 10.500000
+    */
+
+    //Experiment:
+    //Is int data type can take any integer number?
+
+    int a;
+
+    a = 1000;
+    printf("Value of a is %d\n", a); //Ans: 1000
+
+    a = -21000;
+    printf("Value of a is %d\n", a); //Ans: -21000
+
+    a = 10000000;
+    printf("Value of a is %d\n", a); //Ans: 10000000
+
+    a = -10000000;
+    printf("Value of a is %d\n", a); //Ans: -10000000
+
+    a = 100020004000503;
+    printf("Value of a is %d\n", a); //Ans: -1194388745 Note: This Value is not in integer data type range
+
+    a = -4325987632;
+    printf("Value of a is %d\n", a); //And: -31020336 Note: This Value is not in integer data type range
+    
+    //Note: The INTEGER data type stores whole numbers that range from -2,147,483,647 to 2,147,483,647 for 9 or 10 digits of precision
 
     return 0;
 }
