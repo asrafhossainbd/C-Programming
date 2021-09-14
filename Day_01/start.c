@@ -42,12 +42,26 @@ int main()
     */
 
     //e.g.:
-
+    /*
     int a = 50, b = 60, sum;
 
     sum = a + b;
 
-    printf("%d + %d = %d", a, b, sum);
+    printf("%d + %d = %d", a, b, sum); //Ans: 50 + 60 = 110
+    */
+
+    //Experiment:
+    //Using Real Number(Ex. 40.35) in integer Data type
+
+    int a = 50.45, b = 60, sum;
+
+    sum = a + b;
+
+    printf("%d + %d = %d", a, b, sum); 
+    
+    //Ans: 50 + 60 = 110 
+    //Note: This is Call (Type Cast)
+    
 
     return 0;
 }
