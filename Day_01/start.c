@@ -130,7 +130,7 @@ int main()
 
     printf("Sum is: %d", sum);
     */
-
+    /*
     double a, b, sum;
 
     scanf("%lf %lf", &a, &b);
@@ -138,6 +138,17 @@ int main()
     sum = a + b;
 
     printf("Sum is: %.2lf", sum);
+    */
+
+    //char (character) data type
+ 
+    char ch;
+
+    printf("Enter the first letter of your name: ");
+
+    scanf("%c", &ch);
+
+    printf("The first letter of your name is: %c\n", ch);
 
     return 0;
 }
