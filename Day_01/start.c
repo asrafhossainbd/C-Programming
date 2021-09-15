@@ -102,6 +102,7 @@ int main()
     //Note: The INTEGER data type stores whole numbers that range from -2,147,483,647 to 2,147,483,647 for 9 or 10 digits of precision
     */
 
+   /*
     //Some addition using double data type
     double a, b, sum;
 
@@ -112,6 +113,22 @@ int main()
 
     printf("Sum is: %lf\n", sum);
     printf("Sum is: %0.2lf\n", sum);
+    */
+
+    //Input value form user
+    
+    int a, b, sum;
+
+    /*
+    scanf("%d", &a);
+    scanf("%d", &b);
+    */
+
+    scanf("%d %d", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum is: %d", sum);
 
     return 0;
 }
