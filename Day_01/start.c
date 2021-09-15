@@ -51,7 +51,7 @@ int main()
     */
 
     //Experiment:
-    //Using Real Number(Ex. 40.35) in integer Data type
+    //Using Real Number(e.g. 40.35) in integer Data type
     /*
     int a = 50.45, b = 60, sum;
 
@@ -140,8 +140,8 @@ int main()
     printf("Sum is: %.2lf", sum);
     */
 
+    /*
     //char (character) data type
- 
     char ch;
 
     printf("Enter the first letter of your name: ");
@@ -152,6 +152,35 @@ int main()
     ch = getchar();
 
     printf("The first letter of your name is: %c\n", ch);
+    */
+
+    //Exercise:
+
+    double num1, num2, result;
+    char sign;
+
+    printf("Please enter a number: ");
+    scanf("%lf", &num1);
+
+    printf("Please enter another number: ");
+    scanf("%lf", &num2);
+
+    result = num1 + num2;
+    sign = '+';
+    printf("%.2lf %c %.2lf = %.2lf\n", num1, sign, num2, result);
+
+    result = num1 - num2;
+    sign = '-';
+    printf("%.2lf %c %.2lf = %.2lf\n", num1, sign, num2, result);
+
+    result = num1 * num2;
+    sign = '*';
+    printf("%.2lf %c %.2lf = %.2lf\n", num1, sign, num2, result);
+
+    result = num1 / num2;
+    sign = '/';
+    printf("%.2lf %c %.2lf = %.2lf\n", num1, sign, num2, result);
+
 
     return 0;
 }
