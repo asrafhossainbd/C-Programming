@@ -116,19 +116,28 @@ int main()
     */
 
     //Input value form user
-    
+    /*
     int a, b, sum;
 
-    /*
-    scanf("%d", &a);
-    scanf("%d", &b);
-    */
+    
+    // scanf("%d", &a);
+    // scanf("%d", &b);
+
 
     scanf("%d %d", &a, &b);
 
     sum = a + b;
 
     printf("Sum is: %d", sum);
+    */
+
+    double a, b, sum;
+
+    scanf("%lf %lf", &a, &b);
+
+    sum = a + b;
+
+    printf("Sum is: %.2lf", sum);
 
     return 0;
 }
