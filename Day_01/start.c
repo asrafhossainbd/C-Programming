@@ -146,7 +146,10 @@ int main()
 
     printf("Enter the first letter of your name: ");
 
-    scanf("%c", &ch);
+    // scanf("%c", &ch); 
+    
+    //Another way to get character data
+    ch = getchar();
 
     printf("The first letter of your name is: %c\n", ch);
 
