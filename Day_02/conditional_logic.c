@@ -51,6 +51,7 @@ int main()
     }
     */
 
+   /*
     // How to find out even or odd number
 
     int number;
@@ -64,6 +65,21 @@ int main()
     }else{
         printf("%d is odd number.", number);
     }
+    */
 
+    
+    // How to get reminder without using % (modulo)
+    
+    int num, divisor, reminder;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    printf("Enter another number for divisor: ");
+    scanf("%d", &divisor);
+
+    reminder = (num - divisor * (num / divisor));
+
+    printf("Reminder is: %d", reminder);
     return 0;
 }
