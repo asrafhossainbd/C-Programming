@@ -67,9 +67,9 @@ int main()
     }
     */
 
-    
+    /*    
     // How to get reminder without using % (modulo)
-    
+
     int num, divisor, reminder;
 
     printf("Enter a number: ");
@@ -81,5 +81,24 @@ int main()
     reminder = (num - divisor * (num / divisor));
 
     printf("Reminder is: %d", reminder);
+    */
+
+    //Using AND (&&) Operator
+
+    char ch;
+    
+    printf("Enter a letter: ");
+
+    scanf("%c", &ch);
+
+    if(ch >= 'a' && ch <= 'z')
+    {
+        printf("%c is lower case\n", ch);
+    }
+    else if (ch >= 'A' && ch <= 'z')
+    {
+        printf("%c is upper case\n", ch);
+    }
+    
     return 0;
 }
