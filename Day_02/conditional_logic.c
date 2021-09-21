@@ -101,7 +101,7 @@ int main()
         printf("%c is upper case\n", ch);
     }
     */
-
+   /*
     //Using OR (||) Operator
 
     int num = 50;
@@ -113,6 +113,23 @@ int main()
     else{
         printf("No\n");
     }
-    
+    */
+   //e.g.: Is user data Vowel or Consonant?
+
+    char user_data;
+   
+    printf("write a letter: ");
+    scanf("%c", &user_data);
+
+    if(user_data == 'a' || user_data == 'A' ||user_data == 'e' ||user_data == 'E' || user_data == 'i' || user_data == 'I' || user_data == 'o' || user_data == 'O' || user_data == 'u' || user_data == 'U')
+    {
+        printf("%c is vowel", user_data);
+    }
+    else
+    {
+        printf("%c is consonant", user_data);
+    }
+
+
     return 0;
 }
