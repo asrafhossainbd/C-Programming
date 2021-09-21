@@ -83,6 +83,7 @@ int main()
     printf("Reminder is: %d", reminder);
     */
 
+    /*
     //Using AND (&&) Operator
 
     char ch;
@@ -98,6 +99,19 @@ int main()
     else if (ch >= 'A' && ch <= 'z')
     {
         printf("%c is upper case\n", ch);
+    }
+    */
+
+    //Using OR (||) Operator
+
+    int num = 50;
+
+    if(num >= 1 || num <= 10)
+    {
+        printf("Yes\n");
+    }
+    else{
+        printf("No\n");
     }
     
     return 0;
